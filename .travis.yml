@@ -7,7 +7,9 @@ before_install:
   - npm set progress=false
   - time npm install -g npm@latest 1> /dev/null
 install: true
-script: bash index.sh
+script: 
+  - echo $0
+  - bash index.sh
 
 
 

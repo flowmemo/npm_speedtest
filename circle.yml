@@ -1,6 +1,10 @@
+machine:
+  node:
+    version: 6
 dependencies:
   override:
-    - echo
+    - time npm i npm@latest -g
 test:
   override:
+    - echo $0
     - bash index.sh
