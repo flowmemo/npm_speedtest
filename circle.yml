@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: 6
+dependencies:
+  override:
+    - true
+test:
+  override:
+    - sh index.sh
