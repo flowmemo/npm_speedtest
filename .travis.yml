@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - '6'
+  - '4'
+before_install:
+  - npm set progress=false
+  - npm install -g npm@latest
+install: 
+script: sh index.sh
+
+
+
