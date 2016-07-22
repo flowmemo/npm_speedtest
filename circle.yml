@@ -3,4 +3,4 @@ dependencies:
     - echo
 test:
   override:
-    - sh index.sh
+    - bash index.sh
